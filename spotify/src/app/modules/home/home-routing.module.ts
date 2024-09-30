@@ -4,7 +4,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 
 const routes: Routes = [
   {
-    path:'dashboard', // http://localhost:4200/home/dashboard
+    path:'', //TODO: http://localhost:4200/home/dashboard
     component:HomePageComponent
   }
 ];
