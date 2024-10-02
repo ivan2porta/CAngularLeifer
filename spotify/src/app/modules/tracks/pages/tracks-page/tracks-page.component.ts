@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-tracks-page',
@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./tracks-page.component.css']
 })
 export class TracksPageComponent {
-
+mockTracksList = [
+  {
+    name: 'Fera'
+  },
+  {
+    name: 'Vida'
+  },
+  {
+    name: 'La lluna'
+  },
+]
 }
